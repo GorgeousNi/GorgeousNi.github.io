@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Hello Markdown'
+title: 'MySQL添加新用户、为用户创建数据库、为新用户分配权限'
 date: 2018-11-06
 author: GorgeousNi
 color: rgb(255,210,32)
