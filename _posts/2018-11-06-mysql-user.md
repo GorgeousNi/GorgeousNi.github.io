@@ -1,13 +1,13 @@
-
----
+--- 
 layout: post
 title: 'Hello Mysql'
 date: 2018-11-05
 author: GorgeousNi
-color: RGB(238,148,32)
+color: RGB(107,167,66)
 cover: '/assets/doc_img/mysql.jpg'
-tags: Mysql
+tags: mysql
 ---
+
 
 > Transform your plain text into static websites and blogs.
 
