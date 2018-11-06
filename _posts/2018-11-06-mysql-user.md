@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: 'Hello Mysql'
-date: 2018-11-05
+date: 2018-11-06
 author: GorgeousNi
 color: RGB(107,167,66)
 cover: '/assets/doc_img/mysql.jpg'
@@ -9,7 +9,6 @@ tags: mysql
 ---
 
 
-> Transform your plain text into static websites and blogs.
 
 ### MySQL添加新用户、为用户创建数据库、为新用户分配权限
  <br/> 
