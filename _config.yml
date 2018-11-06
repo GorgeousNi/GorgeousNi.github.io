@@ -1,0 +1,95 @@
+# Site settings 配置站点
+title: '泥'
+description: 'Java、Spring、Nginx、Centos、Oracle、Mysql'
+keywords: '泥、Java'
+url: 'https://GorgeousNi.github.io' # your host
+
+# nav 中文字符空格：&emsp;
+nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
+  首页: '/'
+  标签: '/tags.html'
+  时间线: '/timeline.html'
+  关于博主: '/about.html'
+  友情链接: '/friendLink.html'
+
+# 博主
+author: true
+name: '泥'
+NickName: 'GorgeousNi'
+webtitle: '泥、Java'
+bio: '稀饭、蛋糕咖啡安静与你'
+about: true
+aboutyou: '&emsp;&emsp;泥呀，性别女；爱好男；喜欢甜品；初建博客，感谢[<a href="https://github.com/xukimseven/HardCandy-Jekyll">HardCandy-Jekyll</a>]，感谢各路开源大神，以后会主力写我的博客，希望也可以有值得分享的东西被大家star和讨论；</br>
+&emsp;&emsp;一名Java码农，喜欢好看的代码；虽然是一名后端，不会美术、五音不全(或者说没有什么艺术天分)，但是喜欢有趣的事，喜欢有趣的人，喜欢看书、看博客、听音乐、看LOL比赛、看综艺，嗯～最稀饭的是周五～
+言而总之，不精致的🐷有着一颗想要精致的心；毕竟生活还是要多折腾折腾，才能刷新点自己的存在感～喜欢和聊的来的人交朋友(虽然我交际圈很窄，可见跟我聊的来的你对我多么重要～)</br>
+&emsp;&emsp;一路上走走停停、不够好，但有颗想要变好的心；感谢公司的同事，遇到的朋友，教会我很多知识呢。<a>不忘初心、方得始终；</a>'
+portraits: '/assets/profile.jpeg' # your portraits image file path
+
+
+
+# SNS
+SNS: true
+SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
+  mail: 'mailto:gorgeousni@qq.com'
+  weixin: '/assets/wechat.jpeg' # 你的微信二维码存放的地址
+  qq: '/assets/qq.jpeg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='1689857538'&site=qq&menu=yes
+  github: 'https://github.com/GorgeousNi'
+ # Codepen: ''
+  weibo: 'https://weibo.com/2829309103/profile?rightmod=1&wvr=6&mod=personinfo'
+ # instagram: ''
+ # Twitter: ''
+ # Dribbble: ''
+ # Facebook: ''
+ # Google: ''
+ # zhihu: ''
+ # juejin: ''
+ # twitch: ''
+
+# 分页
+paginate: 2
+paginatepath: ['page:num']
+
+# since
+footer:
+  since: 2018
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+# 代码高亮 使用rouge
+highlighter: rouge
+# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
+pygmentsTheme: 'tango'
+
+# 友情链接
+friends:
+  Captain Little: 'https://binarycaptain.github.io/'
+
+# 评论 最佳体验 在disqus、livere和Gitment之间三选一
+# disqus 评论
+disqus: false
+disqus_url: '' # https://abc.disqus.com/embed.js
+# 来必力评论
+livere: true
+livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
+# Gitment评论 OAuth Application
+Gitment: false
+Gitment_owner: ''  # github用户名
+Gitment_repo: ''  # github博客存放的仓库名
+client_id: ''  # 注册 OAuth Application 后获得的 client_id
+client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+
+# Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
+social-share: true
+social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
+
+# 百度统计 在baidu-url里填写自己相关的url代码
+baidu: true
+baidu-url: ''
+# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
+google: false
+google-ID: ''
+
+# 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量）
+color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)
