@@ -1,11 +1,12 @@
+
 ---
 layout: post
-title: 'Hello Markdown'
-date: 2018-11-06
+title: 'Hello Mysql'
+date: 2018-11-05
 author: GorgeousNi
-color: rgb(255,210,32)
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
-tags: markdown
+color: RGB(238,148,32)
+cover: '/assets/doc_img/mysql.jpg'
+tags: Mysql
 ---
 
 > Transform your plain text into static websites and blogs.
