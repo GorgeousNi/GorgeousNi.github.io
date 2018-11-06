@@ -1,26 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-06T20:16:11+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">泥</title><subtitle>Java、Spring、Nginx、Centos、Oracle、Mysql</subtitle><author><name>true</name></author><entry><title type="html">Hello Markdown</title><link href="http://localhost:4000/2018/11/06/%E5%88%86%E4%BA%AB.html" rel="alternate" type="text/html" title="Hello Markdown" /><published>2018-11-06T00:00:00+08:00</published><updated>2018-11-06T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/06/%E5%88%86%E4%BA%AB</id><content type="html" xml:base="http://localhost:4000/2018/11/06/%E5%88%86%E4%BA%AB.html">&lt;blockquote&gt;
-  &lt;p&gt;Transform your plain text into static websites and blogs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;welcome&quot;&gt;Welcome&lt;/h1&gt;
-
-&lt;h2 id=&quot;welcome-1&quot;&gt;Welcome&lt;/h2&gt;
-
-&lt;h3 id=&quot;welcome-2&quot;&gt;Welcome&lt;/h3&gt;
-
-&lt;p&gt;This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself.&lt;/p&gt;
-
-&lt;h3 id=&quot;so-what-is-jekyll-exactlypermalink&quot;&gt;So what is Jekyll, exactly?Permalink&lt;/h3&gt;
-
-&lt;p&gt;Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;) and our &lt;a href=&quot;https://github.com/Shopify/liquid/wiki&quot;&gt;Liquid&lt;/a&gt; renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.&lt;/p&gt;
-
-&lt;h3 id=&quot;helpful-hintspermalink&quot;&gt;Helpful HintsPermalink&lt;/h3&gt;
-
-&lt;p&gt;Throughout this guide there are a number of small-but-handy pieces of information that can make using Jekyll easier, more interesting, and less hazardous. Here’s what to look out for.&lt;/p&gt;
-
-&lt;h3 id=&quot;video-test&quot;&gt;Video Test&lt;/h3&gt;
-
-&lt;iframe type=&quot;text/html&quot; width=&quot;100%&quot; height=&quot;385&quot; src=&quot;http://www.youtube.com/embed/gfmjMWjn-Xg&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content><author><name>GorgeousNi</name></author><category term="markdown" /><summary type="html">Transform your plain text into static websites and blogs. Welcome Welcome Welcome This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself. So what is Jekyll, exactly?Permalink Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free. Helpful HintsPermalink Throughout this guide there are a number of small-but-handy pieces of information that can make using Jekyll easier, more interesting, and less hazardous. Here’s what to look out for. Video Test</summary></entry><entry><title type="html">Hello Markdown</title><link href="http://localhost:4000/2018/11/05/hello-markdown.html" rel="alternate" type="text/html" title="Hello Markdown" /><published>2018-11-05T00:00:00+08:00</published><updated>2018-11-05T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/05/hello-markdown</id><content type="html" xml:base="http://localhost:4000/2018/11/05/hello-markdown.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-06T21:01:51+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">泥</title><subtitle>Java、Spring、Nginx、Centos、Oracle、Mysql</subtitle><author><name>true</name></author><entry><title type="html">Hello Markdown</title><link href="http://localhost:4000/2018/11/05/hello-markdown.html" rel="alternate" type="text/html" title="Hello Markdown" /><published>2018-11-05T00:00:00+08:00</published><updated>2018-11-05T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/05/hello-markdown</id><content type="html" xml:base="http://localhost:4000/2018/11/05/hello-markdown.html">&lt;blockquote&gt;
   &lt;p&gt;Transform your plain text into static websites and blogs.&lt;/p&gt;
 &lt;/blockquote&gt;
 
