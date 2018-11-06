@@ -12,7 +12,7 @@ tags: mysql
 
 # MySQL添加新用户、为用户创建数据库、为新用户分配权限
  <br/> 
-##一. 创建用户
+## 一. 创建用户
  <br/> 
 ```
 CREATE USER 'username'@'host' IDENTIFIED BY 'password’;
@@ -31,7 +31,7 @@ CREATE USER 'pig'@'%' IDENTIFIED BY '';
 CREATE USER 'pig'@'%';
 
  <br/> 
-##二. 授权:
+## 二. 授权:
  <br/> 
  
 ```
@@ -52,7 +52,7 @@ GRANT ALL ON maindataplus.* TO 'pig'@'%';
 GRANT privileges ON databasename.tablename TO 'username'@'host' WITH GRANT OPTION;
 
  <br/> 
-##三.设置与更改用户密码
+## 三.设置与更改用户密码
  <br/> 
  
 ``` 
@@ -63,7 +63,7 @@ SET PASSWORD FOR 'username'@'host' = PASSWORD('newpassword');
  ``` SET PASSWORD FOR 'pig'@'%' = PASSWORD("123456"); ``` 
 
  <br/> 
-##四. 撤销用户权限
+## 四. 撤销用户权限
  <br/> 
 ``` 
 REVOKE privilege ON databasename.tablename FROM 'username'@'host';
@@ -79,7 +79,7 @@ REVOKE SELECT ON *.* FROM 'pig'@'%';
 具体信息可以用命令SHOW GRANTS FOR 'pig'@'%'; 查看。
 
  <br/> 
-##五.删除用户
+## 五.删除用户
  <br/> 
 ``` 
 DROP USER 'username'@'host';
@@ -92,13 +92,13 @@ drop user "gerrit"@"localhost";
 
 
  <br/> 
-##六.实际操作
+## 六.实际操作
  <br/> 
   
 ``` 
 mysql -u root -p
 ``` 
-> ###5.1 新建用户
+> ### 5.1 新建用户
 ``` 
 create user 'yd2018'@'localhost' identified by 'ss&sss#2';
 ``` 
@@ -110,13 +110,13 @@ flush privileges;
 ``` 
 
 
-> ###5.2 创建数据库
+> ### 5.2 创建数据库
 
 ```  
 create database test01 DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 ```  
 
-> ###5.3 授权
+> ### 5.3 授权
 说明: privileges - 用户的操作权限,如SELECT , INSERT , UPDATE 等。如果要授予所的权限则使用 ALL;
 databasename - 数据库名,tablename-表名,如果要授予该用户对所有数据库和表的相应操作权限则可用*表示, 如*.*
 
@@ -129,17 +129,17 @@ databasename - 数据库名,tablename-表名,如果要授予该用户对所有�
 >```GRANT ALL PRIVILEGES ON *.* TO yd2018@localhost IDENTIFIED BY PASSWORD 'jiasasjs18’;``` 
 >```GRANT ALL PRIVILEGES ON *.* TO yd2018@'%' IDENTIFIED BY PASSWORD 'jiasasjs18’;``` 
 
-> ###5.4 查看其他 MySQL 用户权限：
+> ### 5.4 查看其他 MySQL 用户权限：
 ```  
 show grants for yd2018 @localhost;
 ```
 
-> ###5.5 查看MYSQL数据库中所有用户
+> ### 5.5 查看MYSQL数据库中所有用户
 ```  
 SELECT DISTINCT CONCAT('User: ''',user,'''@''',host,''';') AS query FROM mysql.user;
 ```  
 <br/>
-##七.阿里云默认安装mysql root密码更改或者root密码忘记
+## 七.阿里云默认安装mysql root密码更改或者root密码忘记
 <br/>
 >参考 https://www.cnblogs.com/hgj123/p/5279471.html 我就不整理了
 
