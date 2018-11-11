@@ -32,7 +32,6 @@ CREATE USER 'pig'@'%';
 
 
 ## 二. 授权:
-
  
 ```
 GRANT privileges ON databasename.tablename TO 'username'@'host'
@@ -61,7 +60,6 @@ SET PASSWORD FOR 'username'@'host' = PASSWORD('newpassword');
 >如果是当前登陆用户用: SET PASSWORD = PASSWORD("newpassword");
 例子：
  ``` SET PASSWORD FOR 'pig'@'%' = PASSWORD("123456"); ``` 
-
 
 ## 四. 撤销用户权限
 
@@ -157,11 +155,11 @@ mysql在windows系统下安装好后，默认是对表名大小写不敏感的�
 ```  
 lower_case_table_names=1
 ```  
->重启mysql服务
+> 重启mysql服务
 ```  
 service mysqld restart
 ```  
 
 
->参考链接：
+> 参考链接：
 https://blog.csdn.net/wushuchu/article/details/80529254
