@@ -77,8 +77,8 @@ livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
 Gitment: true
 Gitment_owner: 'GorgeousNi'  # github用户名
 Gitment_repo: 'GorgeousNi.github.io'  # github博客存放的仓库名
-client_id: '3fecf4c67b9c69e81f4d'  # 注册 OAuth Application 后获得的 client_id
-client_secret: 'baf9b9bcb881d41637d77256abeea5a24cd1a62f'  # 注册 OAuth Application 后获得的 client_secret
+client_id: '79ac37d30261a6fae39f'  # 注册 OAuth Application 后获得的 client_id
+client_secret: '9ae0f8fe0721c0b005aba1d5a9ee6f9768f75ba1'  # 注册 OAuth Application 后获得的 client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
