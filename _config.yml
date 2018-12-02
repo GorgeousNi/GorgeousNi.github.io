@@ -86,7 +86,7 @@ social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
-baidu-url: '/assets/baidu-tongji.js'
+baidu-url: 'https://hm.baidu.com/hm.js?5c6697f44a73d09b4a6e8f5d2c659537'
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
 google-ID: ''
