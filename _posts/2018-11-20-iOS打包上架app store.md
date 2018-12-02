@@ -4,7 +4,7 @@ title: 'IOS Xcode打包'
 date: 2018-11-20
 author: GorgeousNi
 color: RGB(117,190,210)
-cover: '/assets/doc_img/xcode.jpeg'
+cover: '/assets/doc_img/xcode.png'
 tags: IOS
 ---
 
