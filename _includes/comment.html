@@ -58,6 +58,13 @@
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
+<script src="https://utteranc.es/client.js"
+        repo='{{ site.Gitment_repo }}'
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
 var gitment = new Gitment({
   id: '{{ page.id }}', // 可选。默认为 location.href
   owner: '{{ site.Gitment_owner }}',
